@@ -1,0 +1,40 @@
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} 
+
+.box{
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+
+svg path {
+  will-change: auto;
+  stroke-width: 20px;
+  stroke-miterlimit: round;
+  transition: stroke-dashoffset 850ms ease-in-out;
+}
+
+.pointsWrapper{
+  position:absolute;
+  background:#bbbbbb;
+  border-radius:6px;
+  padding:.5rem;
+}
+
+.bar{
+  width: 70%;
+  position: absolute;
+  top: 78%;
+  left: 19%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:gray
+}
